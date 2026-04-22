@@ -10,7 +10,7 @@ from model import SonikeTokenizer, GuppyLM, generate
 
 # ── Configuration de la page ──────────────────────────────────
 st.set_page_config(
-    page_title="Moussa Kouyaté — Soninké LM",
+    page_title="Moussa Traore — Soninké LM",
     page_icon="🌾",
     layout="centered",
 )
@@ -35,7 +35,7 @@ def load_model():
     return model, tokenizer, device
 
 # ── En-tête ───────────────────────────────────────────────────
-st.title('🌾 Moussa Kouyaté — Dialogue en Soninké')
+st.title('🌾 Moussa Traore — Dialogue en Soninké')
 st.caption('Modèle GuppyLM · Vocabulaire SIL 3 231 mots · Kayes, Mali')
 
 st.info(
